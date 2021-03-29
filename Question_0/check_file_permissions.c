@@ -20,7 +20,7 @@ int main (int argc, char* argv[])
 		return 0;
 	}
 
-	// Check read access
+	// Check read access 
 	int readval;
 	readval = access (filepath, R_OK);
 	if (readval == 0)
